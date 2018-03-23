@@ -1,0 +1,17 @@
+---
+baseurl: "https://huizhang.github.io/"
+DefaultContentLanguage: "zh-cn"
+hasCJKLanguage: true
+languageCode: "zh-cn"
+title: "Albert Lincoln" 
+theme: "beautifulhugo"
+metaDataFormat: "yaml"
+subtitle: "I can help you ___ "
+dateFormat: "January 20, 2018"
+description: "Cloud Native🤘 Big Data"
+algolia:
+  index: "albert-hugo"
+  key: "061f6cd08c1f001f39ea2dd918330b58"
+  appID: "X4YB3WOBNV"
+---
+

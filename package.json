@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+
+  }
+  scripts: {
+    "index": "albert-hugo",
+    "index-and-send": "hugo-algolia -s"
+  }
+}

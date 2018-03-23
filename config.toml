@@ -1,0 +1,78 @@
+baseurl = "https://huizhang.github.io/"
+DefaultContentLanguage = "en"
+hasCJKLanguage = true
+languageCode = "zh-cn"
+title = "Albert Lincoln" 
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = false
+pygmentCodeFences = true
+#googleAnalytics = "XXX"
+
+[Params]
+hello = "Hi,I'm Albert"
+logo = "https://res.cloudinary.com/yujianfeichi/image/upload/v1516545069/albert_hugo/avatar.jpg"
+favicon = "https://res.cloudinary.com/yujianfeichi/image/upload/v1516544992/albert_hugo/favicon.ico"
+dateFormat = "January 20, 2018"
+commit = false
+#rss = true
+comments = true
+#sharebutton = true
+algolia = "d2134c5a8d250e6d3246594240c45201" # API key
+description = "huizhang.github.io|张辉的博客"
+#errorpage = "https://res.cloudinary.com/jimmysong/image/upload/images/404-not-found-cat.png"
+
+[[Params.bigimg]]
+src = "https://res.cloudinary.com/yujianfeichi/image/upload/q_auto/v1516512515/albert_hugo/beautiful_mountain.jpg"
+desc = "2018， New Start"
+
+[Author]
+  name = "Albert Lincoln"
+  email = "yujianfeichi@qq.com"
+  github = "huizhang"
+
+[[menu.main]]
+    identifier = "Categories"
+    name = "Categories"
+    weight = 1
+
+#[[menu.main]]
+#    parent = "Categories"
+#    name = "kubernetes"
+#    url = "categories/kubernetes"
+#    weight = 1
+
+[[menu.main]]
+    identifier = "Gitbooks"
+    name = "Gitbooks"
+    weight = 2
+
+[[menu.main]]
+    parent = "Gitbooks"
+    name = "SpringBoot Handbook"
+    url = "springboot-handbook"
+    weight = 1
+
+[[menu.main]]
+    parent = "Gitbooks"
+    name = "JavaVM Handbook"
+    url = "JavaVM-handbook"
+    weight = 2
+
+[[menu.main]]
+    identifier = "Projects"
+    name = "Projects"
+    weight = 3
+
+#[[menu.main]]
+#    parent = "Projects"
+#    name = "Spark on kubernetes"
+#    url = "spark-on-k8s"
+#    weight = 1
+
+
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 4
